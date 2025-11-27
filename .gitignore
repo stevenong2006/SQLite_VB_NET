@@ -1,0 +1,76 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+Debug*/
+Release*/
+x64/
+x86/
+[Aa]rtifacts/
+TestResults/
+*.Cache
+*.ide/
+
+# Visual Studio profiler/coverage
+*.opendb
+*.coverage
+*.coveragexml
+
+# NuGet
+# If using PackageReference (VS2017+), keep 'packages/' ignored only if you use packages.config.
+packages/
+*.nupkg
+# NuGet restore logs
+nuget.config.user
+.nuget/
+
+# MSBuild
+*.msbuild.binlog
+
+# Rider/Resharper (optional)
+_ReSharper*/
+*.DotSettings.user
+
+# Azure/Publish profiles (keep .pubxml, ignore user secrets)
+*.pubxml.user
+
+# TFS
+$tf/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Code analysis
+*.CodeAnalysisLog.xml
+*.ruleset.user
+
+# SQL Server LocalDB
+*.mdf
+*.ldf
+
+# SQLite (ignore local dev DBs; remove if you want DB files tracked)
+*.db
+*.sqlite
+*.sqlite3
+
+# Others
+*.pdb
+*.dll
+*.exe
+*.cache
+*.log
+
+# Unit test framework artifacts
+*.trx
+
+# VS Code (optional)
+.vscode/
