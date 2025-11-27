@@ -22,17 +22,32 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.AlbumsView = New System.Windows.Forms.DataGridView()
+        CType(Me.AlbumsView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'AlbumsView
+        '
+        Me.AlbumsView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.AlbumsView.Location = New System.Drawing.Point(29, 29)
+        Me.AlbumsView.Name = "AlbumsView"
+        Me.AlbumsView.RowHeadersWidth = 51
+        Me.AlbumsView.RowTemplate.Height = 24
+        Me.AlbumsView.Size = New System.Drawing.Size(715, 346)
+        Me.AlbumsView.TabIndex = 0
         '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.AlbumsView)
         Me.Name = "MainForm"
         Me.Text = "MainForm"
+        CType(Me.AlbumsView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
+    Friend WithEvents AlbumsView As DataGridView
 End Class
