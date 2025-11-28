@@ -58,9 +58,10 @@ $tf/
 *.ldf
 
 # SQLite (ignore local dev DBs; remove if you want DB files tracked)
-*.db
-*.sqlite
-*.sqlite3
+#*.db
+#*.sqlite
+#*.sqlite3
+
 
 # Others
 *.pdb
