@@ -75,3 +75,6 @@ $tf/
 
 # VS Code (optional)
 .vscode/
+
+!packages/ 
+!packages/**
